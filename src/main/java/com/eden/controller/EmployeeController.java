@@ -75,7 +75,7 @@ public class EmployeeController {
 			employee.setPhoto(newFileName);
 			//4.更新员工信息
 		}
-		//如果头像没有更新，直接更新员工信息
+		//如果头像没有更新，直接更新员工
 		employeeService.update(employee);
 		
 		
